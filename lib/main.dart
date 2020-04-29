@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:supply_chain_app/pages/login_page.dart';
+import 'package:supply_chain_app/pages/next_scrren.dart';
 
 void main() {
   runApp(MyApp());

@@ -177,6 +177,10 @@ class LoginState extends State<LoginPage> {
               return CustomDialog(Strings.CONNECTION_ERROR,Strings.CONNECTION_DES,0);
             });
       }
+    }else {
+      setState(() {
+        logging = false;
+      });
     }
   }
 }
